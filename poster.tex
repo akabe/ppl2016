@@ -1,54 +1,39 @@
 \documentclass[cjk,xcolor=dvipsnames,fleqn]{beamer}
+
+\graphicspath{{./figures/}}% 画像ファイルのディレクトリ
 \hypersetup{unicode=true}% しおりの文字化け対策
+
 \usepackage{luatexja,luatexja-fontspec}
 \usepackage[noembed]{luatexja-preset}
 \usepackage{graphicx}
 \usepackage[orientation=portrait,size=a0]{beamerposter}
-\usetheme{sumiilab-poster}
 \usepackage{calc}%% Enable infix arithmetic operators
 
-\setbeamercolor{figure}{bg=white}
-
-%%%
-%%% MY THEME SETTING
-%%%
-
-%\beamertemplategridbackground[1cm]
+\usetheme{sumiilab-poster}
 
 %% http://mix-mplus-ipa.osdn.jp/migmix/
 \setsansfont[
-    Path=./migmix-1p/,
+    Path=./fonts/migmix-1p/,
     Extension=.ttf,
     Ligatures=TeX,
     BoldFont=migmix-1p-bold
 ]{migmix-1p-regular}
 \setsansjfont[
-    Path=./migmix-1p/,
+    Path=./fonts/migmix-1p/,
     Extension=.ttf,
     Ligatures=TeX,
     BoldFont=migmix-1p-bold
 ]{migmix-1p-regular}
 
+\urlstyle{sf}
+
+%\beamertemplategridbackground[1cm]
+\setbeamercolor{figure}{bg=white}
+
 %%%
-%%% BODY
+%%% LaTeX macros
 %%%
 
-\newcommand{\Nat}{\mathbb{N}}
-\newcommand{\Real}{\mathbb{R}}
-\newcommand{\argmax}{\mathop{\mathrm{arg\,max}}\limits}
-\newcommand{\argmin}{\mathop{\mathrm{arg\,min}}\limits}
-\newcommand{\grad}{\bm{\nabla}}%% gradient
-\newcommand{\defarrow}{\mathrel{\overset{\makebox[0pt]{\mbox{\normalfont\tiny{}def}}}{\Longleftrightarrow}}}
-
-\newcommand{\score}{\mathrm{score}}
-\newcommand{\const}{{\mathrm{const.}}}
-\newcommand{\neighbors}[1]{{\langle{}#1\rangle}}
-\newcommand{\DomIn}{\mathcal{X}}%% The domain of input variables
-\newcommand{\DomOut}{\mathcal{Y}}%% The domain of output variables
-\newcommand{\TrainingSet}{\mathcal{S}_{\mathrm{tr}}}
-\newcommand{\TestSet}{\mathcal{S}_{\mathrm{te}}}
-\newcommand{\SamplingSet}{S}
-\newcommand{\Types}{\mathcal{T}}%% The set of types
 \newcommand{\cdkeyword}[1]{\mathbf{#1}}%% code keyword
 \newcommand{\UN}{\cdkeyword{Un}}
 \newcommand{\BOOL}{\cdkeyword{Bool}}
@@ -60,12 +45,7 @@
 \newcommand{\ABS}{\cdkeyword{abs}}
 \newcommand{\APP}{\cdkeyword{app}}
 \newcommand{\VAR}{\cdkeyword{var}}
-
 \newcommand{\Item}{\structure{\textbullet}~}
-\setbeamertemplate{itemize item}[circle]
-\setbeamertemplate{itemize subitem}[triangle]
-
-\urlstyle{sf}
 
 \title[Beamer Poster]{機械学習による関数型ブーリアンプログラムの型推論}
 \author[阿部 \& 住井]{阿部晃典 \and 住井英二郎}

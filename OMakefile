@@ -1,15 +1,10 @@
-TARGET = main
+TARGET = poster
 USEPDFLATEX = true
 PDFLATEX = lualatex
 PDFLATEXFLAGS = -interaction=nonstopmode -halt-on-error
-## For upLaTeX
-## LATEX = uplatex
-## LATEXFLAGS = -interaction=nonstopmode -halt-on-error
-#DVIPDFM = dvipdfmx
-#DVIPDFMFLAGS =
 
 # 変更を監視するファイル
-TEXDEPS[] = $(TARGET).tex beamerposter.sty beamerthemesumiilab-poster.sty crf-typing-score1.pdf crf-typing-score2.pdf pos-tagging-score1.pdf pos-tagging-score2.pdf
+TEXDEPS[] = $(TARGET).tex $(glob i,*.sty) $(glob i,figures/*.pdf)
 
 .PHONY: all clean
 
