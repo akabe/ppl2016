@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="96.971209"
-     inkscape:cy="62.918567"
+     inkscape:zoom="5.6"
+     inkscape:cx="171.56691"
+     inkscape:cy="81.384795"
      inkscape:document-units="px"
      inkscape:current-layer="g3505"
      showgrid="true"
@@ -1244,6 +1244,13 @@
     <g
        id="g3505"
        transform="translate(-1,0)">
+      <rect
+         style="fill:#e2e4f2;fill-opacity:1;stroke:none"
+         id="rect3127-7"
+         width="54"
+         height="16"
+         x="370"
+         y="150.36218" />
       <text
          sodipodi:linespacing="125%"
          id="text3469"

@@ -11,8 +11,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="211.20601"
-   height="90.087639"
+   width="216.03999"
+   height="90.155998"
    id="svg5839"
    version="1.1"
    inkscape:version="0.48.5 r10040"
@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="186.71456"
-     inkscape:cy="27.946617"
+     inkscape:zoom="11.2"
+     inkscape:cx="182.98171"
+     inkscape:cy="73.047652"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -67,7 +67,14 @@
      inkscape:label="レイヤー 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-180.96,-317.43054)">
+     transform="translate(-180.96,-317.36218)">
+    <rect
+       style="fill:#e2e4f2;fill-opacity:1;stroke:none"
+       id="rect3127-7"
+       width="52"
+       height="19.999996"
+       x="345"
+       y="332.36218" />
     <path
        transform="matrix(0.5,0,0,0.5,140,286.18109)"
        sodipodi:type="arc"
@@ -790,13 +797,13 @@
     <text
        sodipodi:linespacing="125%"
        id="text3812-5-9-8-5"
-       y="337.36218"
-       x="343"
+       y="347.36218"
+       x="346"
        style="font-size:20px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:'IPAexゴシック Bold'"
        xml:space="preserve"><tspan
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:'IPAexゴシック';-inkscape-font-specification:'IPAexゴシック Bold'"
-         y="337.36218"
-         x="343"
+         y="347.36218"
+         x="346"
          id="tspan3814-9-9-6-4"
          sodipodi:role="line">合計23.2</tspan></text>
   </g>

@@ -11,7 +11,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="205.8757"
+   width="216.28"
    height="92.155998"
    id="svg5839"
    version="1.1"
@@ -26,9 +26,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="150.29688"
-     inkscape:cy="47.616775"
+     inkscape:zoom="15.839192"
+     inkscape:cx="171.60596"
+     inkscape:cy="68.907575"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -801,17 +801,24 @@
          x="290.09692"
          y="332.36218"
          style="font-size:12px;fill:#ff0000;fill-opacity:1">-0.1</tspan></text>
+    <rect
+       style="fill:#e2e4f2;fill-opacity:1;stroke:none"
+       id="rect3127-7-5"
+       width="52"
+       height="19.999996"
+       x="345"
+       y="332.36218" />
     <text
        sodipodi:linespacing="125%"
-       id="text3812-5-9-8-7"
-       y="337.36218"
-       x="345"
-       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="text3812-5-9-8-5-2"
+       y="347.36218"
+       x="346"
+       style="font-size:20px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:'IPAexゴシック Bold'"
        xml:space="preserve"><tspan
-         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;fill-opacity:1;stroke:none;font-family:'IPAexゴシック';-inkscape-font-specification:'IPAexゴシック Bold'"
-         y="337.36218"
-         x="345"
-         sodipodi:role="line"
-         id="tspan4102">合計2.2</tspan></text>
+         style="font-size:12px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff0000;font-family:'IPAexゴシック';-inkscape-font-specification:'IPAexゴシック Bold'"
+         y="347.36218"
+         x="346"
+         id="tspan3814-9-9-6-4-9"
+         sodipodi:role="line">合計  2.2</tspan></text>
   </g>
 </svg>

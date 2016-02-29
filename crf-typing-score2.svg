@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="118.03591"
-     inkscape:cy="40.864265"
+     inkscape:zoom="11.2"
+     inkscape:cx="201.40761"
+     inkscape:cy="80.119675"
      inkscape:document-units="px"
      inkscape:current-layer="g3505"
      showgrid="true"
@@ -933,16 +933,23 @@
     <g
        transform="translate(194,259.99999)"
        id="g3505">
+      <rect
+         style="fill:#e2e4f2;fill-opacity:1;stroke:none"
+         id="rect3127-7"
+         width="54"
+         height="16"
+         x="370"
+         y="130.36218" />
       <text
          xml:space="preserve"
          style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ff0000;fill-opacity:1;stroke:none;font-family:'IPAexゴシック';-inkscape-font-specification:'IPAexゴシック Bold'"
-         x="370.51379"
+         x="371"
          y="142.36218"
          id="text3469"
          sodipodi:linespacing="125%"><tspan
-           style="font-size:12px;font-weight:bold;text-align:start;text-anchor:start;font-family:'IPAexゴシック';-inkscape-font-specification:'IPAexゴシック Bold';fill:#ff0000"
+           style="font-size:12px;font-weight:bold;text-align:start;text-anchor:start;fill:#ff0000;font-family:'IPAexゴシック';-inkscape-font-specification:'IPAexゴシック Bold'"
            sodipodi:role="line"
-           x="370.51379"
+           x="371"
            y="142.36218"
            id="tspan3473">合計14.6 </tspan></text>
     </g>
