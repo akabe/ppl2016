@@ -1,0 +1,34 @@
+\begin{block}{特徴関数：単純型付け規則を弱めた規則}
+  \vskip1ex
+  \begin{tabular}{l@{~}l}
+    例：
+    & $\text{\textsc{T-WeakIf1}}\,
+      \dfrac
+      {~M : \alert{\tau'}\quad N : \tau\quad K : \tau~}
+      {~\IF~M~\THEN~N~\ELSE~K : \tau~}$ \\[1em]
+    & $\text{\textsc{T-WeakIf2}}\,
+      \dfrac
+      {~M : \BOOL\quad N : \tau\quad K : \tau~}
+      {~\IF~M~\THEN~N~\ELSE~K : \alert{\tau'}~}$ \\[1em]
+    & $\text{\textsc{T-WeakIf3}}\,
+      \dfrac
+      {~M : \BOOL\quad N : \tau\quad K : \alert{\tau'}~}
+      {~\IF~M~\THEN~N~\ELSE~K : \tau~}$ \\[1em]
+    & $\text{\textsc{T-WeakIf4}}\,
+      \dfrac
+      {~M : \BOOL\quad N : \alert{\tau'}\quad K : \tau~}
+      {~\IF~M~\THEN~N~\ELSE~K : \tau~}$
+  \end{tabular}
+  \vskip1ex
+  \begin{itemize}
+  \item 型付け可能な式：\alert{弱めた規則のみ}で\alert{正しく推論}可能
+    \begin{itemize}
+    \item 点数最大化のため全ての規則を同時に適用し \textsc{T-If} と同じ規則になる
+    \end{itemize}
+  \item 型付け不可能な式：\alert{well-typed らしさ}を計算
+    \begin{itemize}
+    \item 型付け不可能な$\lambda$式でも可能な限り型を合わせる
+    \item より多くの規則が成立すれば、点数が上がる
+    \end{itemize}
+  \end{itemize}
+\end{block}

@@ -1,0 +1,95 @@
+\documentclass[cjk,xcolor=dvipsnames,fleqn]{beamer}
+\hypersetup{unicode=true}% しおりの文字化け対策
+\usepackage{luatexja,luatexja-fontspec}
+\usepackage[noembed]{luatexja-preset}
+\usepackage{graphicx}
+\usepackage[orientation=portrait,size=a0]{beamerposter}
+\usetheme{sumiilab-poster}
+\usepackage{calc}%% Enable infix arithmetic operators
+
+\setbeamercolor{figure}{bg=white}
+
+%%%
+%%% MY THEME SETTING
+%%%
+
+%\beamertemplategridbackground[1cm]
+
+%% http://mix-mplus-ipa.osdn.jp/migmix/
+\setsansfont[
+    Path=./migmix-1p/,
+    Extension=.ttf,
+    Ligatures=TeX,
+    BoldFont=migmix-1p-bold
+]{migmix-1p-regular}
+\setsansjfont[
+    Path=./migmix-1p/,
+    Extension=.ttf,
+    Ligatures=TeX,
+    BoldFont=migmix-1p-bold
+]{migmix-1p-regular}
+
+%%%
+%%% BODY
+%%%
+
+\newcommand{\Nat}{\mathbb{N}}
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\argmax}{\mathop{\mathrm{arg\,max}}\limits}
+\newcommand{\argmin}{\mathop{\mathrm{arg\,min}}\limits}
+\newcommand{\grad}{\bm{\nabla}}%% gradient
+\newcommand{\defarrow}{\mathrel{\overset{\makebox[0pt]{\mbox{\normalfont\tiny{}def}}}{\Longleftrightarrow}}}
+
+\newcommand{\score}{\mathrm{score}}
+\newcommand{\const}{{\mathrm{const.}}}
+\newcommand{\neighbors}[1]{{\langle{}#1\rangle}}
+\newcommand{\DomIn}{\mathcal{X}}%% The domain of input variables
+\newcommand{\DomOut}{\mathcal{Y}}%% The domain of output variables
+\newcommand{\TrainingSet}{\mathcal{S}_{\mathrm{tr}}}
+\newcommand{\TestSet}{\mathcal{S}_{\mathrm{te}}}
+\newcommand{\SamplingSet}{S}
+\newcommand{\Types}{\mathcal{T}}%% The set of types
+\newcommand{\cdkeyword}[1]{\mathbf{#1}}%% code keyword
+\newcommand{\UN}{\cdkeyword{Un}}
+\newcommand{\BOOL}{\cdkeyword{Bool}}
+\newcommand{\TRUE}{\cdkeyword{true}}
+\newcommand{\FALSE}{\cdkeyword{false}}
+\newcommand{\IF}{\cdkeyword{if}}
+\newcommand{\THEN}{\cdkeyword{then}}
+\newcommand{\ELSE}{\cdkeyword{else}}
+\newcommand{\ABS}{\cdkeyword{abs}}
+\newcommand{\APP}{\cdkeyword{app}}
+\newcommand{\VAR}{\cdkeyword{var}}
+
+\newcommand{\Item}{\structure{\textbullet}~}
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[triangle]
+
+\urlstyle{sf}
+
+\title[Beamer Poster]{機械学習による関数型ブーリアンプログラムの型推論}
+\author[阿部 \& 住井]{阿部晃典 \and 住井英二郎}
+\institute[東北大学]{東北大学 大学院情報科学研究科}
+\date{2016/3/16}
+\begin{document}
+\begin{frame}[t,fragile]{}
+  \vskip-3ex
+  \begin{columns}[onlytextwidth]
+    \begin{column}[t]{0.5\textwidth-1ex}
+      \input{introduction}
+      \vskip.5ex
+      \input{preliminary}
+      \vskip.5ex
+      \input{feature}
+    \end{column}
+    \begin{column}[t]{0.5\textwidth}
+      \input{our-approach}
+      \vskip.5ex
+      \input{learning}
+      \vskip.5ex
+      \begin{block}{デモ：\url{http://bit.ly/1Qc3MxV}}
+      \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}
+\end{document}

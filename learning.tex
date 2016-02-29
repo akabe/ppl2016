@@ -1,0 +1,25 @@
+\begin{block}{重みの学習と型推論}
+  \structure{型付け規則学習}
+  \begin{itemize}
+  \item 入力：訓練集合（自動生成した単純型付き$\lambda$式800個）
+  \item 出力：重み（型付けに有用な規則の重みは大きくなる）
+  \end{itemize}
+  \structure{型推論}（学習した重みを使用）
+  \begin{itemize}
+  \item 入力：型無し$\lambda$式
+  \item 出力：点数を最大化する型注釈
+    \begin{itemize}
+    \item 予測可能な型注釈\\
+      \begin{tabular}[t]{l}
+        $\BOOL$,\quad
+        $\BOOL\to\BOOL$,\quad
+        $\BOOL\to\BOOL\to\BOOL$, \\
+        $(\BOOL\to\BOOL)\to\BOOL$
+      \end{tabular}
+    \end{itemize}
+  \end{itemize}
+  % $\{ \begin{array}[t]{l}
+  %   \BOOL, \BOOL\to\BOOL, \BOOL\to\BOOL\to\BOOL, \\
+  %   (\BOOL\to\BOOL)\to\BOOL \}
+  % \end{array}$
+\end{block}
