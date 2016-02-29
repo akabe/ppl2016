@@ -47,10 +47,27 @@
 \newcommand{\VAR}{\cdkeyword{var}}
 \newcommand{\Item}{\structure{\textbullet}~}
 
-\title[Beamer Poster]{機械学習による関数型ブーリアンプログラムの型推論}
+\title{機械学習による関数型ブーリアンプログラムの型推論}
 \author[阿部 \& 住井]{阿部晃典 \and 住井英二郎}
 \institute[東北大学]{東北大学 大学院情報科学研究科}
-\date{2016/3/16}
+
+\setbeamertemplate{headline}{%
+  \leavevmode
+  \begin{beamercolorbox}[wd=\textwidth]{headline}
+    \vskip4ex
+    \centering
+    \usebeamercolor{title in headline}{%
+      \usebeamerfont{title in headline}{\inserttitle}}\\[2ex]
+    \raggedright\hskip.75ex
+    \usebeamercolor{author in headline}{%
+      \usebeamerfont{author in headline}{%
+        デモ：\url{http://j.mp/MLinf}\hfill
+        \insertauthor{}（東北大学）
+        \hskip0ex}}
+    \vskip1.5ex
+  \end{beamercolorbox}
+}
+
 \begin{document}
 \begin{frame}[t,fragile]{}
   \vskip-3ex
@@ -66,9 +83,6 @@
       \input{our-approach}
       \vskip.5ex
       \input{learning}
-      \vskip.5ex
-      \begin{block}{デモ：\url{http://j.mp/MLinf}}
-      \end{block}
     \end{column}
   \end{columns}
 \end{frame}
